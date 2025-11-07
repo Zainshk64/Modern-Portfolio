@@ -37,7 +37,7 @@ export default function HeroSection() {
         {/* Right Image */}
         <div className="flex-1 flex justify-center md:justify-end">
           <Image
-            src="/public/heroimage.png"
+            src="https://res.cloudinary.com/daljxhxzf/image/upload/v1762508904/heroImage_sqkitz.png"
             alt="Hero Image"
             width={480}
             height={480}
