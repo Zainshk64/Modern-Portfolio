@@ -7,6 +7,7 @@ import Footer from "@/components/footer"
 import { useEffect, useState } from "react"
 import LoadingScreen from "../components/loading-screen"
 import ScrollToTop from '../components/scroll-totop'
+// import SmoothScroll from '../components/SmoothScroll'
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
@@ -22,6 +23,7 @@ export default function ClientLayout({ children }) {
       <LoadingScreen onLoadingComplete={() => setIsLoading(false)} />
       {!isLoading && (
         <>
+        {/* <SmoothScroll/> */}
           <Navbar />
           <ScrollToTop />
           {children}

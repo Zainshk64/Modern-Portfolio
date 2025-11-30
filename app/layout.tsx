@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import ClientLayout from "./client-layout";
-
+import SmoothScroll from '../components/SmoothScroll'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
-        <ClientLayout>{children}</ClientLayout>
+          <SmoothScroll/>
+        <ClientLayout>
+          {children}</ClientLayout>
       </body>
     </html>
   );
