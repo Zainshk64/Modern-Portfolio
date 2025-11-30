@@ -14,7 +14,7 @@ export default function Footer() {
             lineHeight: "1"
           }}
         >
-         Humail Ijaz
+         Hamail Ijaz
         </h2>
       </div>
 
@@ -27,7 +27,7 @@ export default function Footer() {
               Let's Chat
             </h3>
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-300 transition-all hover:scale-105 transform">
-              Contact Adam
+              Contact Hamail
             </button>
           </div>
 
@@ -37,10 +37,10 @@ export default function Footer() {
               {/* Navigation Links */}
               <nav className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8">
                 <a 
-                  href="#meet-adam" 
+                  href="#meet-hamail" 
                   className="text-white hover:text-yellow-400 transition-colors text-base font-medium"
                 >
-                  Meet Adam
+                  Meet Hamail
                 </a>
                 <a 
                   href="#speaking" 
@@ -119,7 +119,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center mt-6">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Adam Brown. All rights reserved.
+              © {new Date().getFullYear()} Hamail Brown. All rights reserved.
             </p>
           </div>
         </div>

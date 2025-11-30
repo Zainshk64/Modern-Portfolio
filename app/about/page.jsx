@@ -25,11 +25,11 @@ export default function About() {
           </div>
 
           <div>
-            <h2 className="text-3xl font-bold text-white mb-4">The Adam Braun Difference</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">The Hamail Braun Difference</h2>
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                Adam brings a unique combination of entrepreneurial success, academic rigor, and practical wisdom.
-                Having built companies from zero to scale, raised over $100MM, and authored bestselling books, Adam
+                Hamail brings a unique combination of entrepreneurial success, academic rigor, and practical wisdom.
+                Having built companies from zero to scale, raised over $100MM, and authored bestselling books, Hamail
                 understands the complexities of leading in uncertainty.
               </p>
               <p>

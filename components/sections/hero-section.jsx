@@ -10,7 +10,7 @@ export default function HeroSection() {
         {/* Left Content */}
         <div className="flex-1 flex flex-col gap-6 text-center md:text-left">
           <p className="text-yellow-400 text-sm font-semibold tracking-wide">
-            Adam is a 3x Entrepreneur, NYT Bestselling Author & Keynote Speaker
+            Hamail is a 3x Entrepreneur, NYT Bestselling Author & Keynote Speaker
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
@@ -25,11 +25,11 @@ export default function HeroSection() {
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-4">
             <button className="px-8 py-4 bg-yellow-300 text-black font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
-              Connect With Adam
+              Connect With Hamail
             </button>
             <button className="px-8 py-4 border border-gray-600 text-white rounded-full flex items-center gap-2 transition-all duration-300 hover:bg-white/10 hover:scale-105">
               <Play size={18} fill="white" />
-              Watch Adam's Video
+              Watch Hamail's Video
             </button>
           </div>
         </div>

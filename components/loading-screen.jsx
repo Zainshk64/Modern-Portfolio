@@ -46,7 +46,7 @@ export default function LoadingScreen({ onLoadingComplete }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              Humail Ijaz<span className="text-yellow-400">.</span>
+              Hamail Ijaz<span className="text-yellow-400">.</span>
             </motion.h1>
 
             <div className="w-80 sm:w-96 mx-auto">

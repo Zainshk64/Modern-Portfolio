@@ -40,7 +40,7 @@ export default function Navbar() {
   }, [isMobileOpen]);
 
   const menuItems = [
-    { href: "/meet-adam", label: "Meet Adam" },
+    { href: "/meet-hamail", label: "Meet Hamail" },
     { href: "/speaking", label: "Speaking" },
     { href: "/about", label: "Bestsellers" },
     { href: "/", label: "Insights" },
@@ -106,7 +106,7 @@ export default function Navbar() {
             }}
             className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-white z-50"
           >
-            Humail Ijaz<span className="text-yellow-400">.</span>
+            Hamail Ijaz<span className="text-yellow-400">.</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -127,7 +127,7 @@ export default function Navbar() {
               href="/contact"
               className="px-8 py-3 text-white border border-gray-600 font-semibold rounded-full hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition-all duration-300"
             >
-              Book Adam
+              Book Hamail
             </Link>
           </div>
 
@@ -207,7 +207,7 @@ export default function Navbar() {
                     onClick={() => setIsMobileOpen(false)}
                     className="inline-block px-10 py-4 text-white text-xl border-2 border-yellow-400 font-semibold rounded-full hover:bg-yellow-400 hover:text-black transition-all duration-300"
                   >
-                    Book Adam
+                    Book Hamail
                   </Link>
                 </motion.div>
               </motion.div>

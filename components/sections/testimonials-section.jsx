@@ -19,7 +19,7 @@ export default function TestimonialsSection() {
     },
     {
       quote:
-        "Adam has the rare ability to combine data-driven insights with emotional intelligence in a way that resonates with any audience.",
+        "Hamail has the rare ability to combine data-driven insights with emotional intelligence in a way that resonates with any audience.",
       author: "Chief People Officer",
       company: "Accenture",
     },
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
   return (
     <section ref={ref} className="py-24 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-white mb-16">What Leaders Say About Adam</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-16">What Leaders Say About Hamail</h2>
 
         <div className="grid gap-8 md:gap-12">
           {testimonials.map((testimonial, i) => (

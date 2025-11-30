@@ -11,7 +11,7 @@ export default function Speaking() {
       title: "Build For Where The World Is Headed Next",
       subtitle: "Unlocking Innovation in a Rapidly Changing World",
       description:
-        "How do the world's most successful leaders navigate uncertainty in a rapidly changing world? Through a teachable four-step framework, Adam Braun shows you how great companies anticipate tomorrow's reality, today.",
+        "How do the world's most successful leaders navigate uncertainty in a rapidly changing world? Through a teachable four-step framework, Hamail Braun shows you how great companies anticipate tomorrow's reality, today.",
       ideal: "C-suite executives, leadership teams, innovation councils",
     },
     {
@@ -49,14 +49,14 @@ export default function Speaking() {
 
         {/* Speaking Reel */}
         <div className="mb-20 bg-gray-900 rounded-lg p-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Watch Adam in Action</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Watch Hamail in Action</h2>
           <div className="relative bg-black rounded-lg overflow-hidden h-64 md:h-96 flex items-center justify-center">
             <button className="absolute inset-0 flex items-center justify-center bg-black/50 hover:bg-black/30 transition-colors">
               <Play size={64} className="text-yellow-400" fill="currentColor" />
             </button>
             <Image src="/placeholder.jpg" alt="Speaking reel" fill className="object-cover -z-10" />
           </div>
-          <p className="text-gray-400 mt-4">See highlights from Adam's most impactful keynotes</p>
+          <p className="text-gray-400 mt-4">See highlights from Hamail's most impactful keynotes</p>
         </div>
 
         {/* Topics Grid */}

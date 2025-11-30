@@ -47,7 +47,7 @@ export default function StatsSection() {
   const stats = [
     { label: "$100MM+", value: "$100MM+", suffix: "", description: "Raised by ventures founded" },
     { label: "#1", value: "#1", suffix: "", description: "Best-Selling Author" },
-    { label: "3MM+", value: "3MM+", suffix: "", description: "Viewers of Adam's talks" },
+    { label: "3MM+", value: "3MM+", suffix: "", description: "Viewers of Hamail's talks" },
     { label: "600+", value: "600+", suffix: "", description: "Schools built" },
     { label: "250K+", value: "250K+", suffix: "", description: "Students in programs" },
     { label: "$4T+", value: "$4T+", suffix: "", description: "Market value of clients" },

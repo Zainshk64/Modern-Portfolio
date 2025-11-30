@@ -11,7 +11,7 @@ export default function KeynoteSection() {
       title: "Build For Where The World Is Headed Next",
       subtitle: "Unlocking Innovation in a Rapidly Changing World",
       description:
-        "How do the world's most successful leaders navigate uncertainty in a rapidly changing world? Through a teachable four-step framework, Adam Braun shows you how great companies anticipate tomorrow's reality, today.",
+        "How do the world's most successful leaders navigate uncertainty in a rapidly changing world? Through a teachable four-step framework, Hamail Braun shows you how great companies anticipate tomorrow's reality, today.",
     },
     {
       title: "The Innovator's Edge",

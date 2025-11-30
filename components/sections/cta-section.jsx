@@ -13,7 +13,7 @@ export default function CTASection() {
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">Let's Chat</h2>
 
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Ready to transform your organization? Let's discuss how Adam can help your team thrive in a world of rapid
+            Ready to transform your organization? Let's discuss how Hamail can help your team thrive in a world of rapid
             change.
           </p>
 

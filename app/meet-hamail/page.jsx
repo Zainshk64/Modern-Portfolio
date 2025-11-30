@@ -4,14 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import {TimelineDemo} from "@/components/meetComponents/TimelineDemo";
 
-export default function MeetAdam() {
+export default function MeetHamail() {
   return (
     <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            Meet Humail Ijaz
+            Meet Hamail Ijaz
           </h1>
           <p className="text-xl text-gray-400">
             Entrepreneur, Author & Visionary Leader
@@ -23,7 +23,7 @@ export default function MeetAdam() {
           <div className="relative h-full rounded-lg overflow-hidden">
             <Image
               src="https://res.cloudinary.com/daljxhxzf/image/upload/v1762508905/meetimage_ugsogf.png"
-              alt="Adam Braun"
+              alt="Hamail Braun"
               fill
               className="object-contain"
             />
@@ -63,7 +63,7 @@ export default function MeetAdam() {
                 href="/contact"
                 className="inline-block px-8 py-3 bg-yellow-400 text-black font-semibold rounded-full hover:bg-yellow-300 transition-colors"
               >
-                Book Adam For Your Event
+                Book Hamail For Your Event
               </Link>
             </div>
           </div>
