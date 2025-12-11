@@ -7,12 +7,14 @@ import KeynoteSection from "@/components/sections/keynote-section";
 import HomeVideo from "../components/sections/HomeVideo";
 import QuoteSection from "../components/sections/quote-section";
 import {DraggableCardDemo} from "../components/draggable-demo";
+import GallerOutlet from "../components/sections/GallerOutlet";
 
 
 export default function Home() {
   return (
     <div className="min-h-screen pt-16 pb-20">
       <HeroSection />
+      <GallerOutlet/>
       <HomeVideo />
       <CompaniesSection />
       <StatsSection />
