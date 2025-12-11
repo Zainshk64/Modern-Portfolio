@@ -6,26 +6,27 @@ import { ChevronDown } from "lucide-react"
 export default function KeynoteSection() {
   const [openIndex, setOpenIndex] = useState(0)
 
-  const topics = [
-    {
-      title: "Build For Where The World Is Headed Next",
-      subtitle: "Unlocking Innovation in a Rapidly Changing World",
-      description:
-        "How do the world's most successful leaders navigate uncertainty in a rapidly changing world? Through a teachable four-step framework, Hamail Braun shows you how great companies anticipate tomorrow's reality, today.",
-    },
-    {
-      title: "The Innovator's Edge",
-      subtitle: "Building a Future-Ready Organization",
-      description:
-        "In a world characterized by rapid change and uncertainty, the ability to anticipate future trends is a critical leadership skill.",
-    },
-    {
-      title: "The Mindset of Compounding Greatness",
-      subtitle: "The Five Essentials That Drive Repeatable Success",
-      description:
-        "What's the difference between a one time success and those that build a culture that produces an enduring legacy?",
-    },
-  ]
+const topics = [
+  {
+    title: "Building For Where The World Is Headed Next",
+    subtitle: "Preparing Leaders & Youth for the Future",
+    description:
+      "Hamail Ijaz empowers organizations and young innovators to navigate uncertainty with confidence. Through his proven leadership framework, he teaches how to anticipate global trends, embrace disruption, and build solutions that stay relevant in tomorrow’s world.",
+  },
+  {
+    title: "The Innovator’s Edge",
+    subtitle: "How Visionary Thinking Shapes the Next Generation of Businesses",
+    description:
+      "Drawing from his award-winning entrepreneurial journey, Hamail Ijaz reveals how future-ready companies are built. This session explores how innovation, adaptability, and strategic thinking allow leaders to thrive in fast-moving global markets.",
+  },
+  {
+    title: "The Mindset of Compounding Greatness",
+    subtitle: "Principles That Turn Young Talent Into High-Impact Leaders",
+    description:
+      "Hamail Ijaz shares the five essential habits behind continuous success—habits that helped him earn global recognition, including the Evergreen Award 2025. Learn how individuals and organizations can build a culture where progress compounds into lasting greatness.",
+  },
+];
+
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-black">

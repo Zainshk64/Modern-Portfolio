@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { Play } from "lucide-react"
-import Image from 'next/image'
-import CompaniesSection from '@/components/sections/companies-section'
-import KeynoteSection from '@/components/sections/keynote-section'
+import Link from "next/link";
+import { Play } from "lucide-react";
+import Image from "next/image";
+import CompaniesSection from "@/components/sections/companies-section";
+import KeynoteSection from "@/components/sections/keynote-section";
+import { motion } from "framer-motion";
 export default function Speaking() {
   const topics = [
     {
@@ -19,44 +20,64 @@ export default function Speaking() {
       subtitle: "Building a Future-Ready Organization",
       description:
         "In a world characterized by rapid change and uncertainty, the ability to anticipate future trends is a critical leadership skill. Learn the frameworks used by leading organizations.",
-      ideal: "Organizational development teams, digital transformation initiatives",
+      ideal:
+        "Organizational development teams, digital transformation initiatives",
     },
     {
       title: "The Mindset of Compounding Greatness",
       subtitle: "The Five Essentials That Drive Repeatable Success",
       description:
         "What's the difference between a one-time success and those that build a culture that produces an enduring legacy? Discover the five principles that unlock sustained excellence.",
-      ideal: "Growing companies, scale-up leaders, cultural transformation teams",
+      ideal:
+        "Growing companies, scale-up leaders, cultural transformation teams",
     },
     {
       title: "Navigating Disruption",
       subtitle: "How Leaders Thrive When Everything Changes",
       description:
         "Disruption isn't coming—it's here. Learn how to build resilience, anticipate threats, and turn uncertainty into competitive advantage.",
-      ideal: "Industries facing disruption, boards of directors, executive retreats",
+      ideal:
+        "Industries facing disruption, boards of directors, executive retreats",
     },
-  ]
+  ];
 
   return (
     <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-16">
-      
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Speaking Topics</h1>
-          <p className="text-xl text-gray-400">Keynotes designed to inspire, challenge, and transform</p>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+            Speaking Topics
+          </h1>
+          <p className="text-xl text-gray-400">
+            Keynotes designed to inspire, challenge, and transform
+          </p>
         </div>
 
         {/* Speaking Reel */}
         <div className="mb-20 bg-gray-900 rounded-lg p-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Watch Hamail in Action</h2>
-          <div className="relative bg-black rounded-lg overflow-hidden h-64 md:h-96 flex items-center justify-center">
-            <button className="absolute inset-0 flex items-center justify-center bg-black/50 hover:bg-black/30 transition-colors">
-              <Play size={64} className="text-yellow-400" fill="currentColor" />
-            </button>
-            <Image src="/placeholder.jpg" alt="Speaking reel" fill className="object-cover -z-10" />
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Watch Hamail in Action
+          </h2>
+          <div className="relative bg-black rounded-lg overflow-hidden h-64 md:h-auto flex items-center justify-center">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              className="w-full max-w-5xl mx-auto mb-16 rounded-2xl overflow-hidden shadow-lg"
+            >
+              <video
+                src="/videoclip.mp4"
+                autoPlay
+                loop
+                controls
+                muted
+                playsInline
+                className="w-full h-auto object-cover"
+              ></video>
+            </motion.div>
           </div>
-          <p className="text-gray-400 mt-4">See highlights from Hamail's most impactful keynotes</p>
+          
         </div>
 
         {/* Topics Grid */}
@@ -68,12 +89,19 @@ export default function Speaking() {
                 key={i}
                 className="border border-gray-700 rounded-lg p-8 hover:border-yellow-400/50 transition-colors"
               >
-                <h3 className="text-2xl font-bold text-white mb-2">{topic.title}</h3>
-                <p className="text-yellow-400 font-semibold mb-4">{topic.subtitle}</p>
-                <p className="text-gray-300 mb-4 leading-relaxed">{topic.description}</p>
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {topic.title}
+                </h3>
+                <p className="text-yellow-400 font-semibold mb-4">
+                  {topic.subtitle}
+                </p>
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  {topic.description}
+                </p>
                 <div className="bg-gray-800 rounded p-4">
                   <p className="text-sm text-gray-400">
-                    <span className="font-semibold">Ideal for:</span> {topic.ideal}
+                    <span className="font-semibold">Ideal for:</span>{" "}
+                    {topic.ideal}
                   </p>
                 </div>
               </div>
@@ -81,11 +109,9 @@ export default function Speaking() {
           </div>
         </div>
 
-        <CompaniesSection/>
-        <KeynoteSection/>
-
-      
+        <CompaniesSection />
+        <KeynoteSection />
       </div>
     </div>
-  )
+  );
 }

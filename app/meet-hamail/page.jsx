@@ -22,7 +22,8 @@ export default function MeetHamail() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-full rounded-lg overflow-hidden">
             <Image
-              src="https://res.cloudinary.com/daljxhxzf/image/upload/v1762508905/meetimage_ugsogf.png"
+            src='/heroimage.png'
+              // src="https://res.cloudinary.com/daljxhxzf/image/upload/v1762508905/meetimage_ugsogf.png"
               alt="Hamail Braun"
               fill
               className="object-contain"

@@ -12,7 +12,7 @@ const QuoteSection = () => {
         <div className="flex px-14  gap-3 justify-end" >
             <img src="/heroImage.png" className="rounded-full object-cover h-15 w-15  "  alt="" />
             <div>
-                <h1>John Smith.</h1>
+                <h1>Hamail Ijaz</h1>
                 <p>Entrepernuer</p>
             </div>
         </div>
