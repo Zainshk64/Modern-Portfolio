@@ -81,7 +81,7 @@ export default function Speaking() {
         </div>
 
         {/* Topics Grid */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h2 className="text-3xl font-bold text-white mb-8">Popular Topics</h2>
           <div className="grid gap-8">
             {topics.map((topic, i) => (
@@ -107,10 +107,10 @@ export default function Speaking() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <CompaniesSection />
-        <KeynoteSection />
+        {/* <CompaniesSection /> */}
+        {/* <KeynoteSection /> */}
       </div>
     </div>
   );
