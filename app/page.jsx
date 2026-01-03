@@ -8,6 +8,7 @@ import HomeVideo from "../components/sections/HomeVideo";
 import QuoteSection from "../components/sections/quote-section";
 import {DraggableCardDemo} from "../components/draggable-demo";
 import GallerOutlet from "../components/sections/GallerOutlet";
+import CompaniesLogo from "../components/meetComponents/CompaniesLogo";
 
 
 export default function Home() {
@@ -15,11 +16,12 @@ export default function Home() {
     <div className="min-h-screen pt-16 pb-20">
       <HeroSection />
       <GallerOutlet/>
+      <CompaniesLogo/>
       <HomeVideo />
       {/* <CompaniesSection /> */}
       <StatsSection />
       {/* <TestimonialsSection /> */}
-      <KeynoteSection />
+      {/* <KeynoteSection /> */}
       <QuoteSection />
       {/* <DraggableCardDemo /> */}
     </div>

@@ -4,7 +4,7 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "H&H Visa Consultant",
+      title: "HandH Visa Consultant",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-600 md:text-sm dark:text-neutral-200">

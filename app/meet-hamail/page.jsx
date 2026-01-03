@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {TimelineDemo} from "@/components/meetComponents/TimelineDemo";
+import { TimelineDemo } from "@/components/meetComponents/TimelineDemo";
 
 export default function MeetHamail() {
   return (
     <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
@@ -19,12 +19,12 @@ export default function MeetHamail() {
         </div>
 
         {/* Main Content */}
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid lg:grid-cols-2 gap-12">
           <div className="relative h-full rounded-lg overflow-hidden">
             <Image
-            src='/heroimage.png'
+              src="/heroImage.png"
               // src="https://res.cloudinary.com/daljxhxzf/image/upload/v1762508905/meetimage_ugsogf.png"
-              alt="Hamail Braun"
+              alt="Hamail Ijaz"
               fill
               className="object-contain"
             />
@@ -37,7 +37,9 @@ export default function MeetHamail() {
               business administration and has a lot of knowledge in the
               marketing and networking field. He is the Youngest Realtor who
               implemented his Networking skills in the market and gave birth to
-              a successful Real estate company who was named “Khareedo Baicho”.
+              a successful Real estate company who was named “Khareedo Baicho”
+              and now he is leading the biggest Visa Consultancy company “H&H
+              Visa Consultants”
             </p>
 
             <p className="text-gray-300 text-lg leading-relaxed">
@@ -58,21 +60,24 @@ export default function MeetHamail() {
               their strength. He is the youngest Social activist right now in
               Pakistan securing dozens of awards.
             </p>
-
-            <div className="pt-4">
+            <p className="text-gray-300 text-lg leading-relaxed">
+              He is the Evergreen award winner of 2025 “Best Global Business
+              Architect for youth Empowerment in Pakistan. He was published in
+              more than 500+ international articles across the world! He is the
+              proud of Pakistan leading 1000s of Young entrepreneurs!
+            </p>
+            {/* <div className="pt-4">
               <Link
                 href="/contact"
                 className="inline-block px-8 py-3 bg-yellow-400 text-black font-semibold rounded-full hover:bg-yellow-300 transition-colors"
               >
                 Book Hamail For Your Event
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 
         <TimelineDemo />
-
-        
       </div>
     </div>
   );

@@ -30,9 +30,10 @@ function AnimatedCounter({ targetValue, duration = 2 }) {
 
   // Reconstruct the formatted value with the animated number
   const format = (value) => {
-    if (targetValue.includes("MM+")) return `${value}MM+`
+    if (targetValue.includes("M+")) return `${value}M+`
     if (targetValue.includes("T+")) return `${value}T+`
     if (targetValue.includes("K+")) return `${value}K+`
+    if (targetValue.includes("+")) return `${value}+`
     if (targetValue.startsWith("#")) return "#1"
     if (targetValue.includes("$")) return `$${value}${targetValue.includes("T+") ? "T+" : ""}`
     return value
@@ -45,18 +46,18 @@ export default function StatsSection() {
   const { ref, inView } = useInView({ threshold: 0.3 })
 
   const stats = [
-    { label: "$100MM+", value: "$100MM+", suffix: "", description: "Raised by ventures founded" },
-    { label: "#1", value: "#1", suffix: "", description: "Best-Selling Author" },
-    { label: "3MM+", value: "3MM+", suffix: "", description: "Viewers of Hamail's talks" },
-    { label: "600+", value: "600+", suffix: "", description: "Schools built" },
-    { label: "250K+", value: "250K+", suffix: "", description: "Students in programs" },
-    { label: "$4T+", value: "$4T+", suffix: "", description: "Market value of clients" },
+    { label: "$10M+", value: "$10M+", suffix: "", description: "Raised by ventures founded" },
+    { label: "#1", value: "#1", suffix: "", description: "Mutli Ventures entrepreneur" },
+    // { label: "3MM+", value: "3MM+", suffix: "", description: "Viewers of Hamail's talks" },
+    { label: "10K+", value: "10K+", suffix: "", description: "Team Member all Over Pakistan" },
+    { label: "10+", value: "10+", suffix: "", description: "Bussiness Growth" },
+    // { label: "$4T+", value: "$4T+", suffix: "", description: "Market value of clients" },
   ]
 
   return (
     <section ref={ref} className="py-24 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2  gap-8">
           {stats.map((stat, i) => (
             <div key={i} className="text-center">
               <p className="text-4xl md:text-5xl font-bold text-yellow-400 mb-2">

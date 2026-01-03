@@ -41,9 +41,9 @@ export default function Navbar() {
 
   const menuItems = [
     { href: "/meet-hamail", label: "Meet Hamail" },
-    { href: "/speaking", label: "Speaking" },
-    { href: "/about", label: "Bestsellers" },
-    { href: "/", label: "Insights" },
+    // { href: "/speaking", label: "Speaking" },
+    { href: "/about", label: "About" },
+    { href: "/insights", label: "Insights" },
   ];
 
   const menuVariants = {
@@ -91,6 +91,14 @@ export default function Navbar() {
     },
   };
 
+  
+  const WHATSAPP_NUMBER = "+923193595559"; // 🔴 replace
+  const WHATSAPP_TEXT = "Hi! I want to discuss a business idea with you.";
+  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    WHATSAPP_TEXT
+  )}`;
+
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
@@ -123,12 +131,13 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
-            <Link
-              href="/contact"
+            <a
+              href={whatsappLink}
+              target="_blank"
               className="px-8 py-3 text-white border border-gray-600 font-semibold rounded-full hover:bg-yellow-400 hover:text-black hover:border-yellow-400 transition-all duration-300"
             >
               Book Hamail
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
