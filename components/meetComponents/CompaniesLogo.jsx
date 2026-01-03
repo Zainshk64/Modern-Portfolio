@@ -4,12 +4,14 @@ import Image from "next/image"
 
 export default function CompaniesLogo() {
   const companies = [
+    { src: "/companyLogo/hnhlogo.png", alt: "hnh-logo" },
     { src: "/companyLogo/backlinx.jpeg", alt: "backlinx-logo" },
     { src: "/companyLogo/kharedo.jpeg", alt: "kharedobachao-logo" },
     { src: "/companyLogo/lift.jpeg", alt: "lift-logo" },
     { src: "/companyLogo/smartech.jpeg", alt: "smart-tech-logo" },
     { src: "/companyLogo/wingsol.jpeg", alt: "wingsol-logo" },
     { src: "/companyLogo/youthimpact.jpeg", alt: "youthimpact-logo" },
+
 
   ]
 
