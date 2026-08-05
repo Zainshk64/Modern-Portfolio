@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronUp } from "lucide-react";
 
-const WHATSAPP_NUMBER = "+923193595559"; // 🔴 replace
+const WHATSAPP_NUMBER = "+923135352693"; // 🔴 replace
 const WHATSAPP_TEXT =
   "Hi! I want to discuss a business idea with the you.";
 

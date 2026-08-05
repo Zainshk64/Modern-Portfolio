@@ -92,7 +92,7 @@ export default function Navbar() {
   };
 
   
-  const WHATSAPP_NUMBER = "+923193595559"; // 🔴 replace
+  const WHATSAPP_NUMBER = "+923135352693"; // 🔴 replace
   const WHATSAPP_TEXT = "Hi! I want to discuss a business idea with you.";
   const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     WHATSAPP_TEXT
